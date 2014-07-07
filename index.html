@@ -8,7 +8,7 @@
     <script type="text/javascript">
       $(function() {
         // 选项卡效果
-        $('.tabs li').click(function() {
+        $('.tabs li').on('mouseover click', function() {
           var tab = $(this);
           var line = tab.children('a');
           var name = line[0].hash.replace('#', '');
