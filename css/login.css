@@ -8,7 +8,7 @@ blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
 html, body { font-size: 12px; background: #F7F7F7 url(../images/login/bg.png) 0 0 repeat; color: #333; font-family: STHeiti, Arial, Tahoma, Helvetica, "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; *font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti, "宋体"; }
-select, textarea, input, option { margin: 0; padding: 0; font-size: 14px; *font-family: "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; }
+select, textarea, input, option { margin: 0; padding: 0; font-size: 14px; font-family: "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; }
 :placeholder { color: #999999; }
 ::-webkit-input-placeholder { color: #999999; }
 a:link { color: #333; }
@@ -38,7 +38,9 @@ h1 small { font-weight: small; font-size: 18px; }
 */
 #content .wrapper .login-module { height: 450px; }
 #content .wrapper .login-module .pull-right { width: 260px; float: right; padding-right: 30px; }
-#content .wrapper .form { width: 260px; padding: 40px 0 15px; background: transparent url(../images/login/form-bg.png) 0 0 repeat; }
+#content .wrapper .form { position: relative; width: 260px; padding: 40px 0 15px; background: transparent url(../images/login/form-bg.png) 0 0 repeat; }
+#content .wrapper .form .error { color: #EF4643; position: absolute; top: 15px; left: 17px; line-height: 16px;}
+#content .wrapper .form .error .icon {display: inline-block;width: 16px;height: 16px;_display: inline;background: transparent url(../images/login/error.png) 0 0 no-repeat;vertical-align: middle;margin-right: 5px;}
 #content .wrapper .items { padding-top: 30px; color: #666; }
 #content .wrapper .items li { float: left; width: 239px; text-align: center; border-right: 1px solid #CECECE; }
 #content .wrapper .items li.last-child { border-right: none; }
