@@ -7,7 +7,7 @@ ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-html, body { font-size: 12px; background: #F7F7F7 url(../images/bg.png) 0 0 repeat; color: #333; font-family: STHeiti, Arial, Tahoma, Helvetica, "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; *font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti, "宋体"; }
+html, body { font-size: 12px; background: #F7F7F7 url(../images/login/bg.png) 0 0 repeat; color: #333; font-family: STHeiti, Arial, Tahoma, Helvetica, "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; *font-family: "Microsoft Yahei", "微软雅黑", Tahoma, Arial, Helvetica, STHeiti, "宋体"; }
 select, textarea, input, option { margin: 0; padding: 0; font-size: 14px; *font-family: "Microsoft Yahei", "微软雅黑", STHeiti, "宋体"; }
 :placeholder { color: #999999; }
 ::-webkit-input-placeholder { color: #999999; }
@@ -18,26 +18,27 @@ a:active { color: #333; }
 h1 { color: #FFF; font-size: 50px; padding: 64px 0 40px; font-weight: normal; }
 h1 small { font-weight: small; font-size: 18px; }
 .clearfix { overflow: hidden; _zoom: 1; }
-.btn-submit { margin-top: 6px; width: 163px; height: 45px; border-radius: 3px; border: none; color: #FFF; font-size: 16px; cursor: pointer; text-align: center; background: transparent url(../images/submit.png) 0 0 no-repeat; }
+.btn-submit { margin-top: 6px; width: 163px; height: 45px; border-radius: 3px; border: none; color: #FFF; font-size: 16px; cursor: pointer; text-align: center; background: transparent url(../images/login/submit.png) 0 0 no-repeat; }
 .form-group { margin-bottom: 13px; }
-.form-control { margin-left: 17px; border: 1px solid #DADADA; border-radius: 3px; padding: 7px; height: 18px; line-height: 18px; width: 210px; -webkit-box-shadow: 0 1px #f7f7f7 inset; -moz-box-shadow: 0 1px #f7f7f7 inset; box-shadow: 0 1px #f7f7f7 inset; }
+.form-control { margin-left: 17px; border: 1px solid #DADADA; border-radius: 3px; padding: 7px; height: 18px; line-height: 18px; width: 210px; b }
 .tab-pane { display: none; }
 .active { display: block; }
 .tabs li { float: left; width: 130px; }
-.tabs li a { display: block; color: #FFF; text-decoration: none; font-size: 14px; text-align: center; line-height: 34px; background: transparent url(../images/tab-bg.png) 0 0 repeat; }
-.tabs li.active a { background: transparent url(../images/form-bg.png) 0 0 repeat; }
+.tabs li a { display: block; color: #FFF; text-decoration: none; font-size: 14px; text-align: center; line-height: 34px; background: transparent url(../images/login/tab-bg.png) 0 0 repeat; }
+.tabs li.active a { background: transparent url(../images/login/form-bg.png) 0 0 repeat; }
 #logo { text-decoration: none; }
 #logo img { float: left; margin-right: 10px; }
 #logo span { float: left; margin-left: 10px; font-size: 20px; margin-top: 24px; }
-#header { background: #F7F7F7 url(../images/header.png) 0 0 repeat-x; }
+#header { background: #F7F7F7 url(../images/login/header.png) 0 0 repeat-x; }
 #header .message { float: right; padding: 10px 0 0 0; color: #888888; }
 #header .wrapper, #content .wrapper .box, #footer .wrapper { max-width: 960px; margin: 0 auto; _width: 960px; }
 #header .wrapper { height: 65px; }
-#content { background: transparent url(../images/banner-bg.png) 0 0 repeat-x; }
-/* #content .wrapper { background: transparent url(../images/banner.png) center top no-repeat; }*/
+#content { background: transparent url(../images/login/banner-bg.png) 0 0 repeat-x; }
+/* #content .wrapper { background: transparent url(../images/login/banner.png) center top no-repeat; }
+*/
 #content .wrapper .login-module { height: 450px; }
 #content .wrapper .login-module .pull-right { width: 260px; float: right; padding-right: 30px; }
-#content .wrapper .form { width: 260px; padding: 40px 0 15px; background: transparent url(../images/form-bg.png) 0 0 repeat; }
+#content .wrapper .form { width: 260px; padding: 40px 0 15px; background: transparent url(../images/login/form-bg.png) 0 0 repeat; }
 #content .wrapper .items { padding-top: 30px; color: #666; }
 #content .wrapper .items li { float: left; width: 239px; text-align: center; border-right: 1px solid #CECECE; }
 #content .wrapper .items li.last-child { border-right: none; }
