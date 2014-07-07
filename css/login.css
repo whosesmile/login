@@ -46,6 +46,6 @@ a:hover { color: #4796D0; }
 #content .wrapper .items li { float: left; width: 239px; text-align: center; border-right: 1px solid #CECECE; }
 #content .wrapper .items li.last-child { border-right: none; }
 #content .wrapper .items h3 { font-weight: normal; font-size: 20px; margin-top: 25px; color: #2677BD; }
-#content .wrapper .items p { padding: 0 25px; font-size: 13px; text-align: left; line-height: 24px; margin-top: 15px; color: #888; }
+#content .wrapper .items p { padding: 0 25px; font-size: 13px; text-align: left; line-height: 24px; margin-top: 15px; color: #959595; }
 #footer { background: #444444; margin-top: 60px; }
 #footer .wrapper { color: #999999; text-align: center; line-height: 18px; padding: 8px 0 5px; }
