@@ -23,9 +23,21 @@
       <div class="wrapper">
         <a href="" id="logo">
           <img src="images/login/logo.png" alt="logo" />
-          <span>上海会畅视频云系统</span>
+          <img src="images/login/brand.png" alt="brand" />
         </a>
-        <span class="message">客服热线：400 082 6161</span>
+        <div class="infomation">
+          <span class="message">客服热线：400 082 6161</span>
+          <div class="help">
+            <ul class="clearfix">
+              <li><a href="">帮助</a></li>
+              <li><a class="divider">|</a></li>
+              <li><a href="">下载中心</a></li>
+            </ul>
+            <select>
+              <option>简体中文</option>
+            </select>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -34,7 +46,6 @@
         <div class="box">
           <div class="login-module">
             <div class="pull-right">
-              <h1>VCAAS <small>V1.0</small></h1>
               <div class="tabset">
                 <ul class="tabs clearfix">
                   <li class="active"><a href="#join">加入会议</a></li>
@@ -43,27 +54,25 @@
                 <div class="tab-content">
                   <div class="tab-pane active" id="join">
                     <form class="form">
-                      <div class="error"><i class="icon"></i>您输入的会议号码不存在</div>
+                      <div class="error"><i class="icon"></i>您输入的会议号码不存在！</div>
                       <div class="form-group">
-                        <input type="text" class="form-control" placeholder="姓名" />
+                        <input type="text" class="form-control" placeholder="会议号码" />
                       </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" placeholder="会议号码" />
-                      </div>
-                      <div class="form-group">
+                      <div class="form-group submit-group">
                         <center><button type="submit" class="btn-submit">进入会议</button></center>
                       </div>
                     </form>
                   </div>
                   <div class="tab-pane" id="conduct">
                     <form class="form">
+                      <div class="error"><i class="icon"></i>您输入的密码错误！</div>
                       <div class="form-group">
                         <input type="text" class="form-control" placeholder="姓名" />
                       </div>
                       <div class="form-group">
-                        <input type="password" class="form-control" placeholder="会议号码" />
+                        <input type="password" class="form-control" placeholder="密码" />
                       </div>
-                      <div class="form-group">
+                      <div class="form-group submit-group">
                         <center><button type="submit" class="btn-submit">进入会议</button></center>
                       </div>
                     </form>
