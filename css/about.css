@@ -1,0 +1,29 @@
+/* reset all */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+html, body { overflow: hidden; font-size: 12px; background: #FFF; color: #333; font-family: "Microsoft Yahei", "Helvetica", STHeiti; }
+.pull-left { float: left; }
+.pull-right { float: right; }
+a:link, a:visited, a:active { color: #333; text-decoration: none; }
+a:hover { color: #4796D0; }
+.clearfix { overflow: hidden; _zoom: 1; }
+.btn-submit { margin-top: 6px; width: 163px; height: 45px; border-radius: 3px; border: none; color: #FFF; font-size: 16px; cursor: pointer; text-align: center; background: transparent url(../images/login/submit.png) 0 0 no-repeat; }
+html, body { background: #FFF url(../images/body-bg.png) center 0 repeat-y; }
+#header { background: #006FBF url(../images/header-bg.png) 0 0 repeat-x; height: 78px; border-bottom: 3px solid #003D87; }
+#header .wrapper .logo { display: inline-block; }
+#header .wrapper, #content .wrapper, #footer .wrapper { max-width: 960px; _width: 960px; margin: 0 auto; }
+#content .wrapper { background: transparent url(../images/content-bg.png) 0 0 repeat-x; }
+#content .wrapper .address { padding-top: 25px; }
+#content .wrapper .address .group { margin-top: 20px; }
+#content .wrapper .address .group h4 { font-weight: normal; font-size: 14px; color: rgb(0, 119, 199) }
+#content .wrapper .address .group dl {margin-top: 5px;}
+#content .wrapper .address .group dt { line-height: 30px; font-size: 14px; }
+#content .wrapper .address .group dd { line-height: 30px; padding-left: 20px; }
+#footer { background: rgb(231, 235, 238); position: absolute; bottom: 0; width: 100%; }
+#footer .wrapper { text-align: center; padding: 20px 0; }

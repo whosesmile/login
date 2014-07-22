@@ -2,115 +2,66 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8" />
-    <title>登录界面</title>
-    <link type="text/css" rel="stylesheet" href="css/login.css" />
+    <title>上海会畅通信股份有限公司</title>
+    <link type="text/css" rel="stylesheet" href="css/about.css" />
     <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript">
-      $(function() {
-        // 选项卡效果
-        $('.tabs li').on('mouseover click', function() {
-          var tab = $(this);
-          var line = tab.children('a');
-          var name = line[0].hash.replace('#', '');
-          tab.add('#' + name).addClass('active').siblings().removeClass('active');
-          return false;
-        });
-      });
-    </script>
   </head>
   <body>
     <div id="header">
       <div class="wrapper">
-        <a href="" id="logo">
-          <img src="images/login/logo.png" alt="logo" />
-          <img src="images/login/brand.png" alt="brand" />
+        <a href="" class="logo">
+          <img src="images/logo.png" alt="logo" />
         </a>
-        <div class="infomation">
-          <span class="message">客服热线：400 082 6161</span>
-          <div class="help">
-            <ul class="clearfix">
-              <li><a href="">帮助</a></li>
-              <li><a class="divider">|</a></li>
-              <li><a href="">下载中心</a></li>
-            </ul>
-            <select>
-              <option>简体中文</option>
-            </select>
-          </div>
+        <div class="pull-right">
+          
         </div>
       </div>
     </div>
 
     <div id="content">
       <div class="wrapper">
-        <div class="box">
-          <div class="login-module">
-            <div class="pull-right">
-              <div class="tabset">
-                <ul class="tabs clearfix">
-                  <li class="active"><a href="#join">加入会议</a></li>
-                  <li><a href="#conduct">主持会议</a></li>
-                </ul>
-                <div class="tab-content">
-                  <div class="tab-pane active" id="join">
-                    <form class="form">
-                      <div class="error"><i class="icon"></i>您输入的会议号码不存在！</div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="会议号码" />
-                      </div>
-                      <div class="form-group submit-group">
-                        <center><button type="submit" class="btn-submit">进入会议</button></center>
-                      </div>
-                    </form>
-                  </div>
-                  <div class="tab-pane" id="conduct">
-                    <form class="form">
-                      <div class="error"><i class="icon"></i>您输入的密码错误！</div>
-                      <div class="form-group">
-                        <input type="text" class="form-control" placeholder="姓名" />
-                      </div>
-                      <div class="form-group">
-                        <input type="password" class="form-control" placeholder="密码" />
-                      </div>
-                      <div class="form-group submit-group">
-                        <center><button type="submit" class="btn-submit">进入会议</button></center>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+        <div class="clearfix">
+          <div class="pull-left">
+            <img src="images/china.png" src="公司地址" />
+          </div>
+          <div class="pull-left address">
+            <div class="group">
+              <h4>客户支持</h4>
+              <dl>
+                <dd>电话：+86 21 6026 4111</dd>
+                <dd>免费咨询电话：400 062 1818</dd>
+                <dd>E-mail：css@bizconf.cn</dd>
+              </dl>
+            </div>
+            <div class="group">
+              <h4>销售支持</h4>
+              <dl>
+                <dt>上海(总部)</dt>
+                <dd>地址：上海市静安区成都北路333号上海招商局广场南楼17层</dd>
+                <dd>电话：+86 21 6132 1868</dd>
+                <dd>邮编：200041</dd>
+              </dl>
+              <dl>
+                <dt>北京</dt>
+                <dd>地址：北京市朝阳区太阳宫中路12号太阳宫大厦7层702室</dd>
+                <dd>电话：+86 10 8587 9900</dd>
+                <dd>邮编：100026</dd>
+              </dl>
+              <dl>
+                <dt>广州</dt>
+                <dd>地址：广州市天河区林和西路3-15号耀中广场A919室</dd>
+                <dd>电话：+86 20 2202 8098</dd>
+                <dd>邮编：510610</dd>
+              </dl>
             </div>
           </div>
-          <ul class="items clearfix">
-            <li>
-              <img src="images/login/hd.png" alt="高清画质" />
-              <h3>高清画质</h3>
-              <p>描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字</p>
-            </li>
-            <li>
-              <img src="images/login/terminal.png" alt="融合硬件终端" />
-              <h3>融合硬件终端</h3>
-              <p>描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字</p>
-            </li>
-            <li>
-              <img src="images/login/platform.png" alt="跨平台" />
-              <h3>跨平台</h3>
-              <p>描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字</p>
-            </li>
-            <li class="last-child">
-              <img src="images/login/simple.png" alt="操作简易" />
-              <h3>操作简易</h3>
-              <p>描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字描述文字</p>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
 
     <div id="footer">
       <div class="wrapper">
-        <p>Copyright &copy; 2003-2013 BizConf Telecom Co., Ltd. All right Reserved. 沪ICP备 11034277号-5</p>
-        <p>会畅客服热线：400-658 8686</p>
+        <p>Copyright &copy; 2003-2014 上海会畅通信股份有限公司 版权所有 京CP备05008531号</p>
       </div>
     </div>
   </body>
