@@ -7,7 +7,7 @@ ol, ul { list-style: none; }
 blockquote, q { quotes: none; }
 blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
 table { border-collapse: collapse; border-spacing: 0; }
-html, body { overflow: hidden; font-size: 12px; background: #FFF; color: #333; font-family: "Microsoft Yahei", "Helvetica", STHeiti; }
+html, body { font-size: 12px; background: #FFF; color: #333; font-family: "Microsoft Yahei", "Helvetica", STHeiti; }
 .pull-left { float: left; }
 .pull-right { float: right; }
 a:link, a:visited, a:active { color: #333; text-decoration: none; }
@@ -19,7 +19,7 @@ html, body { background: #FFF url(../images/body-bg.png) center 81px repeat-y; }
 #header .wrapper { position: relative; }
 #header .wrapper .logo { display: inline-block; }
 #header .wrapper, #content .wrapper, #footer .wrapper { max-width: 960px; _width: 960px; margin: 0 auto; }
-#header .wrapper .language { position: absolute; right: 0; top: 10px; display: block; width: 70px; text-align: center; border-radius: 5px; padding: 6px 0; color: #FFF !important; background: #00568E; }
+#header .wrapper .language { position: absolute; right: 0; top: 10px; display: block; width: 70px; text-align: center; border-radius: 5px; padding: 6px 0; color: #FFF !important; background: #00568E; text-decoration: none;}
 #content .wrapper { background: transparent url(../images/content-bg.png) 0 0 repeat-x; }
 #content .wrapper .address { padding-top: 25px; }
 #content .wrapper .address .group { margin-top: 20px; }
