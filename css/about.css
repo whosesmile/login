@@ -14,18 +14,19 @@ a:link, a:visited, a:active { color: #333; text-decoration: none; }
 a:hover { color: #4796D0; text-decoration: underline; }
 .clearfix { overflow: hidden; _zoom: 1; }
 .btn-submit { margin-top: 6px; width: 163px; height: 45px; border-radius: 3px; border: none; color: #FFF; font-size: 16px; cursor: pointer; text-align: center; background: transparent url(../images/login/submit.png) 0 0 no-repeat; }
-html, body { background: #FFF url(../images/body-bg.png) center 0 repeat-y; }
+html, body { background: #FFF url(../images/body-bg.png) center 81px repeat-y; }
 #header { background: #006FBF url(../images/header-bg.png) 0 0 repeat-x; height: 78px; border-bottom: 3px solid #003D87; }
+#header .wrapper { position: relative; }
 #header .wrapper .logo { display: inline-block; }
 #header .wrapper, #content .wrapper, #footer .wrapper { max-width: 960px; _width: 960px; margin: 0 auto; }
-#header .wrapper .language { display: block; width: 70px; text-align: center; margin-top: 10px; border-radius: 5px; padding: 6px 0; color: #FFF !important; background: rgb(0, 86, 142); }
+#header .wrapper .language { position: absolute; right: 0; top: 10px; display: block; width: 70px; text-align: center; border-radius: 5px; padding: 6px 0; color: #FFF !important; background: #00568E; }
 #content .wrapper { background: transparent url(../images/content-bg.png) 0 0 repeat-x; }
 #content .wrapper .address { padding-top: 25px; }
 #content .wrapper .address .group { margin-top: 20px; }
-#content .wrapper .address .group h4 { font-weight: normal; font-size: 14px; color: rgb(0, 119, 199) }
+#content .wrapper .address .group h4 { font-weight: normal; font-size: 14px; color: #0077C7; }
 #content .wrapper .address .group dl { margin-top: 5px; }
 #content .wrapper .address .group dt { line-height: 30px; font-size: 14px; }
-#content .wrapper .address .group dd { line-height: 30px; padding-left: 20px; list-style: disc inline;}
-.disc {display: inline-block;*display:inline;width: 15px;height: 20px;background: transparent url(../images/disc.png) 0 10px no-repeat;}
-#footer { background: rgb(231, 235, 238); position: absolute; bottom: 0; width: 100%; }
+#content .wrapper .address .group dd { line-height: 30px; padding-left: 20px; list-style: disc inline; }
+.disc { display: inline-block; *display: inline; zoom: 1; width: 15px; height: 20px; background: transparent url(../images/disc.png) 0 10px no-repeat; }
+#footer { background: #E7EBEE; position: absolute; bottom: 0; width: 100%; }
 #footer .wrapper { text-align: center; padding: 20px 0; }
