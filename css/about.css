@@ -17,7 +17,7 @@ a:hover { color: #4796D0; text-decoration: underline; }
 .btn-submit { margin-top: 6px; width: 163px; height: 45px; border-radius: 3px; border: none; color: #FFF; font-size: 16px; cursor: pointer; text-align: center; background: transparent url(../images/login/submit.png) 0 0 no-repeat; }
 .disc { display: inline-block; *display: inline; zoom: 1; width: 15px; height: 20px; background: transparent url(../images/disc.png) 0 10px no-repeat; }
 .fixed { position: fixed; }
-html, body { background: #FFF url(../images/body-bg.png) center 81px repeat-y; }
+html, body { background: #FFF url(../images/body-bg.png) center 81px repeat-y; min-width: 960px;}
 #header { background: #006FBF url(../images/header-bg.png) 0 0 repeat-x; height: 78px; border-bottom: 3px solid #003D87; }
 #header .wrapper { position: relative; }
 #header .wrapper .logo { display: inline-block; }
